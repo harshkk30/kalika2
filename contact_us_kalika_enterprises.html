@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Contact Us</title>
+<style>
+    /* Basic styling for the contact section */
+    .contact-section {
+        background: rgba(22, 160, 133, .2);
+        padding: 50px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        border-radius: 20px;
+    }
+
+    /* Style for the contact form */
+    .contact-form {
+        max-width: 1000px;
+        margin: 1 auto;
+    }
+
+    .body .contact-section .big{
+        padding: 1rem;
+    }
+
+    .contact-form input[type="text"],
+    .contact-form textarea {
+        width: 100%;
+        padding: 20px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 15px;
+        border-width: 2px;
+    }
+
+    .contact-form textarea {
+        height: 150px;
+    }
+
+    .contact-form input[type="submit"] {
+        background-color: #007bff;
+        color: #fff;
+        text-align: center;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    .contact-form input[type="email"]{
+        margin-bottom: 20px;
+        width: 100%;
+        padding: 10px;
+        border-radius: 15px;
+        border-width: 1px;
+    }
+
+    .contact-form input[type="message"]{
+        border-width: 2px;
+    }
+
+    .contact-form input[type="submit"]:hover {
+        background-color: #0056b3;
+    }
+</style>
+</head>
+<body>
+    <div class="body">
+    <section class="contact-section">
+        <h1>Contact Us</h1>
+    <div class="contact-form">
+        <form action="index.html" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send Message">
+        </form>
+    </div>
+</div>
+</section>
+
+</body>
+</html>
