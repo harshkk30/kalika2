@@ -155,11 +155,6 @@ section:nth-child(even){
     padding: 1rem 0;
 }
 
-video{
-    width: 100%;
-    aspect-ratio: 16/9;
-}
-
 .icons-container{
     display: grid;
     gap: 2rem;
